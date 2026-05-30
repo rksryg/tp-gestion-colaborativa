@@ -16,6 +16,7 @@ Se utilizó:
 - Jira
 
 Estructura del Proyecto
+
 repo-proyecto/
 │
 ├── datos/
@@ -29,6 +30,7 @@ repo-proyecto/
 │
 ├── README.md
 └── .gitignore
+
 
 Instrucciones de ejecución
 
