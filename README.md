@@ -1,47 +1,83 @@
 Análisis de Ventas - Trabajo Práctico
 
-UTN - Tecnicatura Universitaria en Programación
-Acuña Nerea - comision 21
+Universidad Tecnológica Nacional (UTN)
 
-Escenario: Análisis de Ventas de una Pequeña Empresa
+Tecnicatura Universitaria en Programación – Modalidad a Distancia
 
-Descripción del Proyecto:
-Este proyecto tiene como objetivo analizar un conjunto de datos de ventas para obtener información relevante sobre el desempeño de una empresa.
-Se trabajó con un dataset que contiene información sobre productos, cantidades vendidas, precios y fechas de venta.
+Materia: Organización Empresarial
+Estudiante: Acuña Nerea
+Comisión: 21
 
-Se utilizó: 
-- Python
-- Git
-- GitHub
-- Jira
+---
 
-Estructura del Proyecto
+Escenario del Proyecto
 
-repo-proyecto/
+Se desarrolló el escenario "Análisis de Ventas de una Pequeña Empresa", cuyo objetivo consiste en analizar un conjunto de datos de ventas para obtener indicadores básicos sobre el desempeño comercial.
+
+El proyecto utiliza un archivo de datos en formato CSV con información correspondiente a productos, cantidades vendidas, precios y fechas de venta.
+
+---
+
+Herramientas utilizadas
+
+* Python
+* Git
+* GitHub
+* Jira
+* Google Colab
+
+---
+
+Estructura del repositorio
+
+tp-gestion-colaborativa/
 │
 ├── datos/
-│   └── dataset.csv
+│   └── ventas.csv
 │
 ├── scripts/
 │   └── analisis.py
 │
 ├── resultados/
-│   └── resultados.csv 
+│   ├── resumen.txt
+│   └── grafico_ventas.png
 │
 ├── README.md
 └── .gitignore
 
+---
+
+Funcionalidad del proyecto
+
+El script realiza las siguientes operaciones:
+
+* Calcula la cantidad total de ventas.
+* Identifica el producto más vendido.
+* Genera un archivo de resultados (`resumen.txt`).
+* Genera un gráfico con las ventas por producto.
+
+---
 
 Instrucciones de ejecución
 
-* Abrir el proyecto.
-* Clonar el repositorio.
-* Ejecutar el script ubicado en la carpeta /scripts.
-* Ver los resultados generados en la carpeta /resultados.
+1. Clonar el repositorio desde GitHub.
+2. Acceder a la carpeta del proyecto.
+3. Ejecutar el archivo `scripts/analisis.py`.
+4. Consultar los archivos generados dentro de la carpeta `resultados`.
 
-Resultados esperados
+---
 
-* Cálculo de ventas totales
-* Identificación del producto más vendido
-* Análisis de ventas por fecha
-* Generación de gráficos simples
+Resultados obtenidos
+
+Como resultado de la ejecución del script se obtiene:
+
+* Total de ventas realizadas.
+* Producto con mayor cantidad de ventas.
+* Archivo de resumen.
+* Gráfico de ventas por producto.
+
+---
+
+Control de versiones
+
+Durante el desarrollo del proyecto se utilizó Git y GitHub para registrar los cambios realizados mediante commits, ramas de trabajo y Pull Requests. Además, se empleó Jira para la planificación y el seguimiento de las tareas del proyecto.
